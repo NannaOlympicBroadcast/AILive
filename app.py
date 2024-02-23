@@ -142,8 +142,8 @@ if __name__ == '__main__':
                 button_update = gr.Button(value="确认")
                 button_update.click(fn=setzhibojianhao, inputs=[rid,dropbox], outputs=addr)
             with gr.Row():
-                api_key = gr.Textbox(label="Your Openai Api_Key")
-                proxy = gr.Textbox(label="Using Proxy", value="openai.com")
+                api_key = gr.Textbox(label="Your Openai Api_Key",value="sk-iAEdBE0RN2pxr7wtHfkhu8jz1bDVNQKD5OjH6XJb6A8cR7vb")
+                proxy = gr.Textbox(label="Using Proxy(前加上http;//或者https://,有些可能要加/v1)", value="api.openai-proxy.org/v1")
             with gr.Row():
                 button_set = gr.Button(value="Set API")
                 text=gr.Text(label="status",value="Not Set")

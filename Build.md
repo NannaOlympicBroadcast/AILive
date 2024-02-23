@@ -11,8 +11,14 @@
 ```commandline
 py -m venv venv
 ```
+(for Winodws)
 ```commandline
-./venv/Scripts/activate
+.\venv\Scripts\activate
+```
+
+(for Mac&Linux)
+```commandline
+source ./venv/bin/activate
 ```
 ## 3、安装依赖
 检查命令提示符是否出现以"(venv)"开头
@@ -28,3 +34,11 @@ python app.py
 Running on local URL:  xxxxxx
 ```
 Ctrl+单击后面的“xxxxxx”部分，或者复制链接在浏览器打开，运行程序
+
+### 提示
+
+**记住直播间号是在“live.bilibili.com/”后，“?”前**
+
+**选完直播间记得选线路并且点“确认”刷新！**
+
+**填写的API-KEY仅供测试，大家不要过度使用，在将api.去掉以后得到的url那里买API供自己使用，更新API_KEY或者Proxy_URL点击Set API刷新一下，注意Proxy_URL必须以完整的https://或者http://开头**
