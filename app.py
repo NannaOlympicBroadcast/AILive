@@ -150,4 +150,4 @@ if __name__ == '__main__':
                 button_set.click(fn=set_openai_api,inputs=[api_key,proxy],outputs=text)
 
 
-    demo.launch()
+    demo.launch(share=True)
